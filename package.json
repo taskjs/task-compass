@@ -1,0 +1,32 @@
+{
+  "name": "task-compass",
+  "version": "0.1.0",
+  "main": "lib/compass.js",
+  "description": "Compile Sass to CSS using Compass.",
+  "homepage": "https://github.com/taskjs/task-compass",
+  "bugs": "https://github.com/taskjs/task-compass/issues",
+  "author": {
+    "name": "Yuanyan Cao",
+    "email": "yuanyan.cao@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taskjs/task-compass"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "keywords":[
+    "task",
+    "sass",
+    "compass"
+  ],
+  "dependencies": {
+    "execution": "^0.1.2"
+  },
+  "scripts": {
+    "test": "node test/compass_test"
+  }
+}
